@@ -1,0 +1,39 @@
+{
+  "name": "stream-journey",
+  "version": "0.0.1",
+  "description": "Learn node stream by looking under the carpet",
+  "author": "Jeremie Patonnier <jeremie@patonnier.net>",
+  "license": "MIT",
+  "main": "stream-journey.js",
+  "bin": {
+    "stream-journey": "./bin/stream-journey"
+  },
+  "scripts": {
+    "lint": "eslint '*.js'",
+    "test": "npm run lint && ./node_modules/.bin/workshopper-adventure-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JeremiePat/streamer.git"
+  },
+  "keywords": [
+    "node",
+    "stream"
+  ],
+  "dependencies": {
+    "workshopper-adventure": "^6.0.4",
+    "workshopper-exercise": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "workshopper-adventure-test": "^1.1.2"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true
+    }
+  }
+}
