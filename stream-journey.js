@@ -7,6 +7,8 @@ const streamjourney = require('workshopper-adventure')({
   pass:      require('workshopper-adventure/default/pass')
 })
 
-streamjourney.addAll([])
+streamjourney.addAll([
+  'HELLO STREAM'
+])
 
 module.exports = streamjourney
