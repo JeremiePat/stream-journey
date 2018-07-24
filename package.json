@@ -21,8 +21,11 @@
     "stream"
   ],
   "dependencies": {
+    "faker": "^4.1.0",
+    "node-fs-extra": "^0.8.2",
     "workshopper-adventure": "^6.0.4",
-    "workshopper-exercise": "^3.0.1"
+    "workshopper-exercise": "^3.0.1",
+    "workshopper-wrappedexec": "^0.1.3"
   },
   "devDependencies": {
     "eslint": "^5.2.0",

@@ -1,5 +1,13 @@
 {
   "title": "UN VOYAGE AU PAYS DES STREAMS",
+  "common": {
+    "exercise": {
+      "fail": {
+        "abusive": "Utilisation abusive de {{{method}}}"
+        "expected": "Pas d'utilisation de {{{method}}}"
+      }
+    }
+  },
   "exercise": {
     "HELLO STREAM": "BONJOUR, STREAM"
   }
