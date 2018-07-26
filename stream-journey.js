@@ -9,7 +9,8 @@ const streamjourney = require('workshopper-adventure')({
 
 streamjourney.addAll([
   'HELLO STREAM',
-  'TRANSFORM IT'
+  'TRANSFORM IT',
+  'DIVIDE AND CONQUER'
 ])
 
 module.exports = streamjourney
