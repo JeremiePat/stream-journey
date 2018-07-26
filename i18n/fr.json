@@ -3,12 +3,13 @@
   "common": {
     "exercise": {
       "fail": {
-        "abusive": "Utilisation abusive de {{{method}}}"
+        "abusive": "Utilisation abusive de {{{method}}}",
         "expected": "Pas d'utilisation de {{{method}}}"
       }
     }
   },
   "exercise": {
-    "HELLO STREAM": "BONJOUR, STREAM"
+    "HELLO STREAM": "BONJOUR, STREAM",
+    "TRANSFORM IT": "TRANSFORME MOI ÇA"
   }
 }

@@ -30,7 +30,7 @@ Le chemin vers le fichier à lire vous sera fournis comme premier argument de la
 ------------------------------------------------------------------------------
 ## ASTUCES
 
-Pour compléter cet exercice, vous aurez besoin d'informations disponible dans la documentation de Node.js (en anglais). En particulier:
+Pour compléter cet exercice, vous aurez besoin d'informations disponibles dans la documentation de Node.js (en anglais). En particulier:
 
 - https://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options
 - https://nodejs.org/api/process.html#process_process_stdout
