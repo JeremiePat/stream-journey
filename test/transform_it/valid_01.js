@@ -3,9 +3,9 @@ const { createReadStream } = require('fs')
 
 const uppercase = new Transform({
   transform (chunk, enc, callback) {
-    const str = chunk.toString(enc).toUpperCase()
+    const str = chunk.toString().toUpperCase()
 
-    callback(null, Buffer.from(str, enc))
+    callback(null, Buffer.from(str))
   }
 })
 

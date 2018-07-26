@@ -54,7 +54,7 @@ execute(exercise)
 comparestdout(exercise)
 
 // set up the data file to be passed to the submission (for both verify and run)
-provideFile(exercise, faker.lorem.sentence(5))
+provideFile(exercise, faker.lorem.sentence(5)+'\n')
 
 // add a processor only for 'verify' calls
 exercise.addVerifyProcessor(checkUpCode)
