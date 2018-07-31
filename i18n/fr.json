@@ -3,14 +3,15 @@
   "common": {
     "exercise": {
       "fail": {
-        "abusive": "Utilisation abusive de {{{method}}}",
-        "expected": "Pas d'utilisation de {{{method}}}"
+        "abusive": "Vous ne devez pas utiliser {{{method}}}",
+        "expected": "Vous devez utiliser {{{method}}}"
       }
     }
   },
   "exercise": {
     "HELLO STREAM": "BONJOUR, STREAM",
     "TRANSFORM IT": "TRANSFORME MOI ÇA",
-    "DIVIDE AND CONQUER": "DIVISER POUR MIEUX RÉGNER"
+    "DIVIDE AND CONQUER": "DIVISER POUR MIEUX RÉGNER",
+    "OBJECTIFY": "OBJECTIF OBJETS"
   }
 }

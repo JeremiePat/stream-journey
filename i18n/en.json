@@ -3,8 +3,8 @@
   "common": {
     "exercise": {
       "fail": {
-        "abusive": "Abusive use of {{{method}}}",
-        "expected": "No usage of {{{method}}}"
+        "abusive": "You must not use {{{method}}}",
+        "expected": "You are supposed to use {{{method}}}"
       }
     }
   }
